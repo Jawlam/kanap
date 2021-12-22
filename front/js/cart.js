@@ -259,7 +259,7 @@ const sendCommand = () => {
 
             const products = [];
             for (k = 0; k < storage.length; k++) {
-                let allId = storage[k].getId;
+                let allId = storage[k].id;
                 products.push(allId);
             }
 
